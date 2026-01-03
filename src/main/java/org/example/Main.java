@@ -34,7 +34,13 @@ public class Main {
         objAutomation.name = "Nancy";
         objAutomation.surname = "Kikvadze";
         objAutomation.age = 38;
-        System.out.println(objAutomation.name + " " + objAutomation.surname + " " + objAutomation.age + " " + objAutomation.finalScore());
+        System.out.println(objAutomation.name + " " + objAutomation.surname + " " + objAutomation.age + " " +
+                objAutomation.finalScore());
+
+        Dog objDog = new Dog();
+        objDog.age = 5;
+        objDog.leg = 4;
+        objDog.voice = "Woof";
     }
 
     static void printName() {
